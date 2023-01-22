@@ -1,0 +1,27 @@
+momentum:
+  groups:
+    - zookeepers
+    - kafkas
+    - cassandra_seed
+    - cassandra
+    - hadoop_master
+    - hadoop_slave
+    - nodemanagers
+    - elasticsearch
+    - haproxy
+    - haproxy_public
+    - momentum-web
+    - momentum-insight-web
+    - agg-coordinator-web
+    - ticket-agg-web
+    - ticket-agg-postgres-web
+    - ticket-agg-proxy-web
+    - ticket-web
+    - ticket-export-web
+    - inventory-web
+#   - rsyslog
+    - sos-web
+#    - postgres
+  vars:
+    kafka_rack_id: '1'
+  ram: 10240
