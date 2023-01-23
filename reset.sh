@@ -104,9 +104,8 @@ echo "Cloning successful!"
 cd "${STARTING_WORKING_DIRECTORY}"
 
 echo ""
-echo "Adjusting provisioning.yml"
-rm "${MOMENTUM_DIR}/${ANSIBLE_REPO}/provisioning.yml"
-cp /Users/sj185213/momentum/scripts/provisioning.yml "${MOMENTUM_DIR}/${ANSIBLE_REPO}/provisioning.yml"
+echo "Copying custom my.provisioning.yml"
+cp /Users/sj185213/momentum/scripts/my.provisioning.yml "${MOMENTUM_DIR}/${ANSIBLE_REPO}/provisioning.yml"
 echo "provisioning.yml adjusted!"
 
 echo ""
