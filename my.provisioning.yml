@@ -24,4 +24,4 @@ momentum:
 #    - postgres
   vars:
     kafka_rack_id: '1'
-  ram: 10240
+  ram: 8192
